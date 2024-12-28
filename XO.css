@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(64, 142, 184, 0.839);
+  text-align: center;
+  position: relative;
+}
+a {
+  font-size: 20px;
+  text-decoration: none;
+  background-color: darkblue;
+  color: white;
+  width: 150px;
+  border-radius: 8px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+img {
+  width: 40px;
+  border-radius: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+h1 {
+  font-size: 60px;
+  margin: 0;
+  padding: 0;
+}
+#who {
+  font-size: 60px;
+  width: 350px;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+#blockresolt {
+  background-color: aliceblue;
+  min-width: 350px;
+  width: 50%;
+  height: 400px;
+  padding: 7px;
+  display: inline-block;
+  border-radius: 15px;
+  position: absolute;
+  top: calc(50% - 175px);
+  left: 25%;
+  display: none; 
+}
+#blockresolt div {
+  background-color: lightblue;
+  border-radius: 15px;
+  padding-top: 0px;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+#resolt {
+  font-size: 60px;
+  margin-top: 30px;
+}
+#cong {
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  width: 100%;
+  bottom: 150px;
+}
+p.fix {
+  position: absolute;
+  width: 100%;
+  bottom: 90px;
+  display: block;
+}
+button {
+  font-size: 20px;
+  font-weight: bold;
+  width: 150px;
+  border: 7px double purple;
+  border-radius: 20px;
+  background-color: pink;
+  cursor: pointer;
+  position: absolute;
+  bottom: 30px;
+  left: calc(50% - 75px);
+}
+#restart {
+  position: absolute;
+  bottom: 30px;
+  left: calc(50% - 155px);
+}
+#rest {
+  position: absolute;
+  bottom: 30px;
+  left: calc(50% + 5px);
+}
+button:hover {
+  font-size: 22px;
+  border-color: pink;
+}
+button:active {
+  background-color: purple;
+}
+table {
+  /* border: 2px solid black; */
+  margin: 100px auto 0px;
+}
+td {
+  border: 2px solid black;
+  width: 80px;
+  border-radius: 10%;
+  height: 80px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 60px;
+}
+.counter {
+  font-size: 60px;
+  width: 350px;
+  display: inline-block;
+  margin: 0px;
+}

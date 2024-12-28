@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>لعبة XO</title>
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="XO.css">
+  <script src="XO.ar.js"></script>
+</head>
+<body>
+  <a href="XO.en.html">english/الإنجليزية</a>
+  <img alt="logo" src="logo.png">
+  <h1><span style="color: red;">X</span>/<span style="color: blue;">O</span> لعبة</h1>
+  <p id="who">سوف يبدأ <span id="in" style="color: red;">X</span></p>
+  <div id="blockresolt">
+    <div>
+      <p id="resolt"></p>
+      <p id="cong"></p>
+      <p class="counter fix"><span id="X" style="color: red;">0</span> - <span id="O" style="color: blue;">0</span></p>
+      <button id="restart" onclick="restart()">إلعب مجددا</button>
+      <button id="rest" onclick="restart(),rest()">من البداية</button>
+    </div>
+  </div>
+  <table>
+    <tr>
+      <td id="box1" onclick="X_O('box1')"></td>
+      <td id="box2" onclick="X_O('box2')"></td>
+      <td id="box3" onclick="X_O('box3')"></td>
+    </tr>
+    <tr>
+      <td id="box4" onclick="X_O('box4')"></td>
+      <td id="box5" onclick="X_O('box5')"></td>
+      <td id="box6" onclick="X_O('box6')"></td>
+    </tr>
+    <tr>
+      <td id="box7" onclick="X_O('box7')"></td>
+      <td id="box8" onclick="X_O('box8')"></td>
+      <td id="box9" onclick="X_O('box9')"></td>
+    </tr>
+  </table>
+  <p class="counter"><span id="X1" style="color: red;">0</span> - <span id="O1" style="color: blue;">0</span></p>
+</body>
+</html>
